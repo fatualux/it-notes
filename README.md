@@ -1,6 +1,6 @@
 # Notes about IT
 
-### This is my first digital book, generated with mdBook is a command line tool to create books with Markdown. 
+### This is my first digital book, generated with mdBook, a command line tool to create books with Markdown.
 
 ## INSTALLATION
 
