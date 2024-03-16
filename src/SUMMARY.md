@@ -1,4 +1,4 @@
 # Summary
 
 - [Boot](./boot.md)
-- [Arch Linux](./archlinux.md)
+- [Git](./git.md)
