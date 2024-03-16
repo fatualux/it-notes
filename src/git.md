@@ -93,7 +93,7 @@ Here's a step by step guide on how to publish an md-book on GitHub Pages.
 5. Create a mdBook workflow (mdbook.yml)
 6. Set your Github Page deployment to newly created 'gh-pages' branch.
 
-### Managing git branches
+### Managing branches
 
 #### Creating a new branch locally
 
