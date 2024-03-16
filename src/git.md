@@ -82,7 +82,7 @@ ssh://github.com/[your-username]/[your-repo-name].git
 
 ### Publish an md-book on GitHub Pages
 
-I have just started using [md-book](https://github.com/rust-lang/md-book) to write documentation for my projects.
+I have just started using [md-book](https://github.com/rust-lang/mdBook) to write documentation for my projects.
 
 Here's a step by step guide on how to publish an md-book on GitHub Pages.
 
