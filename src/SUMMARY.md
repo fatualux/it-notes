@@ -12,3 +12,4 @@
 - [Virtualenvs](./git_virtualenvs.md)
 - [Mirroring](./git_mirroring.md)
 - [mdBook](./mdbook.md)
+- [Contributions](./git_contributions.md)
