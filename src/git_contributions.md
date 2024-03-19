@@ -3,6 +3,7 @@
 After making many mistakes about it, I decided to note down a workflow for my contributions to git repositories.
 
 1. Fork the repository
+
 2. Clone your fork
 ```
 git clone <your fork> && cd <your fork>
@@ -22,5 +23,6 @@ git add -A && git commit -m "commit message"
 6. Push
 ```
 git push -u fork <your branch>
+```
 
 7. Create a merge request or a pull request.
