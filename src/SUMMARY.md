@@ -12,4 +12,5 @@
 - [Virtualenvs](./git_virtualenvs.md)
 - [Mirroring](./git_mirroring.md)
 - [mdBook](./mdbook.md)
+    - [mdBook-mermaid](./mdbook_mermaid.md)
 - [Contributions](./git_contributions.md)
