@@ -10,7 +10,7 @@ git clone <your fork> && cd <your fork>
 ```
 3. Configure git to pull master/main branch from the original repository
 ```
-git remote add origin <original repository> && git remote add fork <fork>
+git remote add upstream <original repository> && git remote add fork <fork>
 ```
 4. Create your branch
 ```
