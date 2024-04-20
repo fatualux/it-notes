@@ -43,10 +43,10 @@ git merge [branch-name]
 
 Example:
 
-If you want to merge the `develop` branch into the `master` branch, use the following command:
+If you want to merge the `master` branch into the `develop` branch, use the following command:
 
 ```
-git merge develop master
+git merge master develop
 ```
 
 Or:
