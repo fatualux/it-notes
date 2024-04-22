@@ -11,6 +11,10 @@
 - [Branches](./git_branches.md)
 - [Virtualenvs](./git_virtualenvs.md)
 - [Mirroring](./git_mirroring.md)
+- [Contributions](./git_contributions.md)
+- [Reverts](./git_reverts.md)
+- [Rebase](./git_rebase.md)
+- [Reset](./git_reset.md)
+# MDBook
 - [mdBook](./mdbook.md)
     - [mdBook-mermaid](./mdbook_mermaid.md)
-- [Contributions](./git_contributions.md)
