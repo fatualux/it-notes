@@ -12,8 +12,6 @@ docker stop $(docker ps -a -q)
 docker rmi $(docker images -q)
 ```
 
-These are the feature if `docker image` command.
-
 | Command | Description |
 | --- | --- |
 | `docker image` | Manage images. |
