@@ -12,8 +12,6 @@ docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 ```
 
-These are the feature if `docker container` command.
-
 | Command | Description |
 | --- | --- |
 | `docker container` | Manage containers. |
