@@ -7,6 +7,9 @@
 - [Shortcuts](./boot_shortcuts.md)
 - [Ventoy](./ventoy.md)
 
+# LINUX
+- [Links](./linux_links.md)
+
 # GIT
 - [Branches](./git_branches.md)
 - [Virtualenvs](./git_virtualenvs.md)
