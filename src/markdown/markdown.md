@@ -50,4 +50,4 @@
 | **Highlight**    | `Let's highlight these ==important words==.`    |
 | **Subscript**    | `H~2~O`                                         |
 | **Superscript**  | `X^2^`                                          |
-| **Underlined**   | `__Underline__`                                 |
+| **Underlined**   | `<ins>Underlined</ins>`                                 |
