@@ -4,26 +4,32 @@
 - [Overview](./overview.md)
 
 # BOOT
-- [Shortcuts](./boot_shortcuts.md)
-- [Ventoy](./ventoy.md)
+- [Shortcuts](./boot/shortcuts.md)
+- [Ventoy](./boot/ventoy.md)
 
 # LINUX
-- [Links](./linux_links.md)
+- [Links](./linux/links.md)
 
 # GIT
-- [Branches](./git_branches.md)
-- [Virtualenvs](./git_virtualenvs.md)
-- [Mirroring](./git_mirroring.md)
-- [Contributions](./git_contributions.md)
-- [Reverts](./git_reverts.md)
-- [Rebase](./git_rebase.md)
-- [Reset](./git_reset.md)
+- [Branches](./git/branches.md)
+- [Mirroring](./git/mirroring.md)
+- [Contributions](./git/contributions.md)
+- [Reverts](./git/reverts.md)
+- [Rebase](./git/rebase.md)
+- [Reset](./git/reset.md)
 
 # MDBook
-- [mdBook](./mdbook.md)
-    - [mdBook-mermaid](./mdbook_mermaid.md)
+- [mdBook](./mdbook/mdbook.md)
+- [mdBook-mermaid](./mdbook/mermaid.md)
+
+# Virtualenvs
+- [Virtualenvs](./virtualenvs/virtualenvs.md)
 
 # Docker
-- [Without SUDO](./docker_without_sudo.md)
-- [Images](./docker_images.md)
-- [Containers](./docker_containers.md)
+- [Without SUDO](./docker/without_sudo.md)
+- [Images](./docker/images.md)
+- [Containers](./docker/containers.md)
+- [Volumes](./docker/volumes.md)
+
+# Markdown
+- [Markdown](./markdown/markdown.md)

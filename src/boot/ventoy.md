@@ -9,4 +9,3 @@ Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x
 It also supports plugins for persistence, theming, and more.
 
 Till now, this is the best tool I have ever tried for this task, as far as it regards versatility and ease of use.
-

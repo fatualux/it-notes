@@ -1,4 +1,4 @@
-### Git and Python Virtual Environments
+### Python Virtual Environments
 
 In distros such as Arch Linux, you cannot install Python packages with *pip*; if you try to launch a command like:
 

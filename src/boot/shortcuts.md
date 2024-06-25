@@ -61,4 +61,3 @@
 |              | iBALL    | i360 CompBook                                 | F9               | Del          |
 |              | HUAWEI   |                                               | F2               | F12          |
 |              | SHARP    |                                               | F9               | F2           |
-
