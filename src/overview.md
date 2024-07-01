@@ -1,10 +1,11 @@
 # Overview
 
-### This is my first digital book, generated with [mdBook](https://rust-lang.github.io/mdBook/guide/installation.html), a command line tool to create books with Markdown.
+This is my first digital book, generated with [mdBook](https://rust-lang.github.io/mdBook/guide/installation.html), a command line tool to create books starting from markdown files.
 
 # Aknowledgements
-#### I am not an IT, these are notes I have been taking across the years, and it is a work in progress.
-####  I decided to rearrange the notes taken over time, and write the procedures and operations that I carry out most frequently; I hope this work can be useful to others too.
+These are notes I have been taking across the years, and it is a work in progress.
+I decided to rearrange the notes taken over time, and write the procedures and operations that I carry out most frequently; I hope this work can be useful to others too.
+I am always opened to learn something new, and to listen or read constructive criticism, so feel free to contact me for any suggestion.
 
 ## LICENSE
 

@@ -1,35 +1,43 @@
 # Summary
 
 # Introduction
-- [Overview](./overview.md)
+- [Overview](overview.md)
 
 # BOOT
-- [Shortcuts](./boot/shortcuts.md)
-- [Ventoy](./boot/ventoy.md)
+- [Shortcuts](./chapters/boot/shortcuts.md)
+- [Ventoy](./chapters/boot/ventoy.md)
 
 # LINUX
-- [Links](./linux/links.md)
+- [Links](./chapters/linux/links.md)
+- [Arch Linux](./chapters/linux/archlinux/archlinux.md)
+    - [Breaking Things](./chapters/linux/archlinux/issues/breaking.md)
+        - [Partitioning](./chapters/linux/archlinux/issues/partitioning.md)
+        - [Arch-Chroot](./chapters/linux/archlinux/issues/arch_chroot.md)
+        - [Wireless](./chapters/linux/archlinux/issues/wireless.md)
+        - [Pacstrap](./chapters/linux/archlinux/issues/pacstrap.md)
+        - [Kernel](./chapters/linux/archlinux/issues/kernel.md)
+        - [Overwrite packages](./chapters/linux/archlinux/issues/overwrite_packages.md)
 
 # GIT
-- [Branches](./git/branches.md)
-- [Mirroring](./git/mirroring.md)
-- [Contributions](./git/contributions.md)
-- [Reverts](./git/reverts.md)
-- [Rebase](./git/rebase.md)
-- [Reset](./git/reset.md)
+- [Branches](./chapters/git/branches.md)
+- [Mirroring](./chapters/git/mirroring.md)
+- [Contributions](./chapters/git/contributions.md)
+- [Reverts](./chapters/git/reverts.md)
+- [Rebase](./chapters/git/rebase.md)
+- [Reset](./chapters/git/reset.md)
 
 # MDBook
-- [mdBook](./mdbook/mdbook.md)
-- [mdBook-mermaid](./mdbook/mermaid.md)
+- [mdBook](./chapters/mdbook/mdbook.md)
+- [mdBook-mermaid](./chapters/mdbook/mermaid.md)
 
 # Virtualenvs
-- [Virtualenvs](./virtualenvs/virtualenvs.md)
+- [Virtualenvs](./chapters/virtualenvs/virtualenvs.md)
 
 # Docker
-- [Without SUDO](./docker/without_sudo.md)
-- [Images](./docker/images.md)
-- [Containers](./docker/containers.md)
-- [Volumes](./docker/volumes.md)
+- [Without SUDO](./chapters/docker/without_sudo.md)
+- [Images](./chapters/docker/images.md)
+- [Containers](./chapters/docker/containers.md)
+- [Volumes](./chapters/docker/volumes.md)
 
 # Markdown
-- [Markdown](./markdown/markdown.md)
+- [Markdown](./chapters/markdown/markdown.md)

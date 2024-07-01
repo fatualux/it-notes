@@ -1,6 +1,6 @@
-### Laptop BIOS Key Reference
+# Laptop BIOS Key Reference
 
-#### Here are some shortcuts I found on the Internet, the ones I tested worked as expected.
+Here are some shortcuts I found on the Internet, the ones I tested worked as expected.
 
 | Manufacturer | Type     | Models                                        | Boot Menu Key(s) | BIOS Key(s)  |
 |--------------|----------|-----------------------------------------------|------------------|--------------|
