@@ -30,7 +30,8 @@ Now, I ensure that my network connection works:
 ping archlinux.org
 ```
 
-If not, I read [this](./wireless.md)
+If not, I read [this](./wireless.md).
+
 If *pacman* still works on my system, I am ready to chroot, otherwise I must use [pacstrap](./pacstrap.md).
 
 If both my connection to the Internet and *pacman* work, I chroot into /mnt:
