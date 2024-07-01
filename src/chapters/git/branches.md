@@ -14,7 +14,7 @@ When you are done with your work, commit the changes, and push them to your remo
 ```
 git add -A
 git commit -m "commit message"
-git push -u origin [branch-name]
+git push origin [branch-name]
 ```
 
 #### Deleting a branch locally
