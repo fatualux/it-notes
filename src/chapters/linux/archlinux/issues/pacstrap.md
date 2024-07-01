@@ -14,7 +14,5 @@ pacstrap [options] root [packages...]
 | `pacstrap` | Install packages to the specified new root directory. |
 | `pacstrap -i` | Install packages to the specified new root directory and run interactively. |
 | `pacstrap -N` | Install packages to the specified new root directory in unshare mode. |
-| `pacstrap -i -N` | Install packages to the specified new root directory and run interactively in unshare mode. |
-| `pacstrap -N -i` | Install packages to the specified new root directory and run interactively in unshare mode. |
-| `pacstrap -i -N -i` | Install packages to the specified new root directory and run interactively in unshare mode. |
-| `pacstrap -c -i -N -i` | Install packages to the specified new root directory and run interactively in unshare mode. |
+
+Run ```man pacstrap``` for more information.
