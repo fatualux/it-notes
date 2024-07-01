@@ -22,7 +22,7 @@ git add -A && git commit -m "commit message"
 ```
 6. Push
 ```
-git push -u
+git push
 ```
 
 7. Create a merge request or a pull request.
