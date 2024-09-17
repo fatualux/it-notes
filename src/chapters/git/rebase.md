@@ -8,7 +8,7 @@ Rebasing involves moving or combining a sequence of commits to a new base commit
 
 ### How Rebase Works
 
-When you rebase a branch onto another, Git replays the commits from your current branch on top of the specified branch. 
+When you rebase a branch onto another, Git replays the commits from your current branch on top of the specified branch.
 
 ```mermaid
 graph TD;
@@ -39,7 +39,7 @@ graph TD;
 graph TD;
     M[Master]:::branch --> A[Commit A]:::commit
     A --> B[Commit B]:::commit
-    M --> C[Commit D]:::commit
+    M --> C[Commit C]:::commit
 
     classDef commit fill:#90ee90, stroke:#000, stroke-width:2px;
     classDef branch fill:#f08080, stroke:#000, stroke-width:2px;
@@ -55,8 +55,8 @@ graph TD;
 graph TD;
     M[Master]:::branch --> A[Commit A]:::commit
     A --> B[Commit B]:::commit
-    A --> D[Commit C']:::commit
-    M --> C[Commit D]:::commit
+    C[Commit C]:::commit
+    B --> D[New Commit C']:::commit
 
     classDef commit fill:#90ee90, stroke:#000, stroke-width:2px;
     classDef branch fill:#f08080, stroke:#000, stroke-width:2px;
@@ -64,7 +64,6 @@ graph TD;
     linkStyle 0 stroke:#2ca02c,stroke-width:2px
     linkStyle 1 stroke:#2ca02c,stroke-width:2px
     linkStyle 2 stroke:#2ca02c,stroke-width:2px
-    linkStyle 3 stroke:#2ca02c,stroke-width:2px
 ```
 
 ### Commands
@@ -104,4 +103,7 @@ During rebasing, if you encounter conflicts, you'll need to resolve them manuall
 - **Rebase**: Moves or combines commits to a new base commit for a linear history.
 - **Commands**: `git rebase <branch>`, `git rebase --continue`, `git rebase --abort`.
 - **Conflict Resolution**: Similar to merging, requires manual intervention in case of conflicts.
-```
+
+
+
+
