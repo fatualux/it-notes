@@ -24,6 +24,7 @@
     - [Commit](./chapters/git/structure.md)
 - [Branches](./chapters/git/branches.md)
     - [Managing branches](./chapters/git/managing_branches.md)
+    - [Merging branches](./chapters/git/merge.md)
 - [Mirroring](./chapters/git/mirroring.md)
 - [Contributions](./chapters/git/contributions.md)
 - [Reverts](./chapters/git/reverts.md)

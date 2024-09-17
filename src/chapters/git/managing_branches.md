@@ -58,59 +58,6 @@ To rename a branch while you are not on it, use:
 git branch -m [old-branch-name] [new-branch-name]
 ```
 
-#### Merging branches
-
-To merge changes from one branch into another, switch to the branch you want to merge into and run:
-
-```bash
-git merge [branch-name]
-```
-
-This chart illustrates how branches can be merged back into a main branch:
-
-```mermaid
-graph TD;
-    A[Main Branch]:::mainColor --> B[Commit 1]:::commitColor
-    A --> C[Commit 2]:::commitColor
-    D[Feature Branch 1]:::featureColor --> E[Commit F1]:::commitFeatureColor
-    D --> F[Commit F2]:::commitFeatureColor
-    B --> G[Feature Branch 2]:::featureColor2
-    G --> H[Commit F3]:::commitFeatureColor2
-    D --> I[Merge Commit]:::mergeColor
-    I --> A:::mainColor
-
-    classDef mainColor fill:#3399FF;
-    classDef commitColor fill:#99CCFF;
-    classDef featureColor fill:#66CC66;
-    classDef commitFeatureColor fill:#B2E6B2;
-    classDef featureColor2 fill:#FFCC66;
-    classDef commitFeatureColor2 fill:#FFE6B2;
-    classDef mergeColor fill:#9933FF;
-
-    linkStyle 0 stroke:#2ca02c,stroke-width:2px
-    linkStyle 1 stroke:#2ca02c,stroke-width:2px
-    linkStyle 2 stroke:#FF8C00,stroke-width:2px
-    linkStyle 3 stroke:#FF0000,stroke-width:2px  
-    linkStyle 4 stroke:#FF8C00,stroke-width:2px
-    linkStyle 5 stroke:#FF8C00,stroke-width:2px
-    linkStyle 6 stroke:#999933,stroke-width:2px
-```
-
-**Example:**
-If you want to merge the `develop` branch into the `master` branch, first check out the `master` branch:
-
-```bash
-git checkout master
-git merge develop
-```
-
-Optionally, you may choose to delete the feature branch after merging:
-
-```bash
-git branch -d develop               # Delete the local `develop` branch
-git push origin --delete develop    # Delete the remote `develop` branch
-```
-
 ### Feature Development and Final Merge
 
 This chart represents the process of developing a feature branch and merging it into the main branch:

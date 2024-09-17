@@ -16,13 +16,13 @@ f4d4205 Fixed generate_css function
 74e0e66 Initial commit
 ```
 
-To go back to the second commit, you run the git reset command followed by the commit ID. That is:
+To go back to the second commit, run the git reset command followed by the commit ID. That is:
 
 ```
 git reset 6239db6
 ```
 
-If you want to undo a commit and the all the changes made after that commit, you attach the --hard flag to your git reset command.
+If you want to undo a commit and the all the changes made after that commit, attach the --hard flag to your git reset command.
 
 Let's test this out by reverting back to the first commit:
 
