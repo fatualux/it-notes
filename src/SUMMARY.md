@@ -27,6 +27,7 @@
     - [Merging branches](./chapters/git/merge.md)
 - [Mirroring](./chapters/git/mirroring.md)
 - [Contributions](./chapters/git/contributions.md)
+- [Cherry Picking](./chapters/git/cherrypick.md)
 - [Reverts](./chapters/git/reverts.md)
 - [Rebase](./chapters/git/rebase.md)
 - [Reset](./chapters/git/reset.md)
