@@ -1,24 +1,4 @@
-# Branches
-
-**Branches are labels on commits.** They allow multiple lines of development to occur in parallel, making it easier to experiment and manage features or fixes separately.
-
-Checking out a branch passes the HEAD label to that commit, which means that any new commits you make will be positioned on the branch you are currently on.
-
-### Basic Branching Structure
-
-This chart illustrates a basic branch structure, showing how different branches diverge from a common commit:
-
-```mermaid
-graph TD;
-    A[Commit A] --> B[Commit B]
-    A --> C[Feature Branch]
-    C --> D[Commit C]
-    C --> E[Commit D]
-    B --> F[Commit E]
-    F --> G[Commit F]
-```
-
-### Managing branches
+# Managing branches
 
 #### Creating a new branch locally
 
@@ -90,14 +70,30 @@ This chart illustrates how branches can be merged back into a main branch:
 
 ```mermaid
 graph TD;
-    A[Main Branch] --> B[Commit 1]
-    A --> C[Commit 2]
-    D[Feature Branch 1] --> E[Commit F1]
-    D --> F[Commit F2]
-    B --> G[Feature Branch 2]
-    G --> H[Commit F3]
-    D --> I[Merge Commit]  
-    I --> A
+    A[Main Branch]:::mainColor --> B[Commit 1]:::commitColor
+    A --> C[Commit 2]:::commitColor
+    D[Feature Branch 1]:::featureColor --> E[Commit F1]:::commitFeatureColor
+    D --> F[Commit F2]:::commitFeatureColor
+    B --> G[Feature Branch 2]:::featureColor2
+    G --> H[Commit F3]:::commitFeatureColor2
+    D --> I[Merge Commit]:::mergeColor
+    I --> A:::mainColor
+
+    classDef mainColor fill:#3399FF;
+    classDef commitColor fill:#99CCFF;
+    classDef featureColor fill:#66CC66;
+    classDef commitFeatureColor fill:#B2E6B2;
+    classDef featureColor2 fill:#FFCC66;
+    classDef commitFeatureColor2 fill:#FFE6B2;
+    classDef mergeColor fill:#9933FF;
+
+    linkStyle 0 stroke:#2ca02c,stroke-width:2px
+    linkStyle 1 stroke:#2ca02c,stroke-width:2px
+    linkStyle 2 stroke:#FF8C00,stroke-width:2px
+    linkStyle 3 stroke:#FF0000,stroke-width:2px  
+    linkStyle 4 stroke:#FF8C00,stroke-width:2px
+    linkStyle 5 stroke:#FF8C00,stroke-width:2px
+    linkStyle 6 stroke:#999933,stroke-width:2px
 ```
 
 **Example:**
@@ -121,21 +117,35 @@ This chart represents the process of developing a feature branch and merging it 
 
 ```mermaid
 graph TD;
-    A[Main Branch] --> B[Initial Commit]
-    A --> C[Development Branch]
-    C --> D[Feature Commit 1]
-    C --> E[Feature Commit 2]
-    D --> F[Feature Commit 3]
-    F --> |Merge| G[Merge Commit]
+    A[Main Branch]:::main --> B[Initial Commit]:::initial
+    A --> C[Development Branch]:::development
+    C --> D[Feature Commit 1]:::feature1
+    C --> E[Feature Commit 2]:::feature2
+    D --> F[Feature Commit 3]:::feature3
+    F -->|Merge| G[Merge Commit]:::merge
     G --> A
+
+    classDef main fill:#add8e6, stroke:#000, stroke-width:2px;
+    classDef initial fill:#90ee90, stroke:#000, stroke-width:2px;
+    classDef development fill:#f08080, stroke:#000, stroke-width:2px;
+    classDef feature1 fill:#fafad2, stroke:#000, stroke-width:2px;
+    classDef feature2 fill:#ffb6c1, stroke:#000, stroke-width:2px;
+    classDef feature3 fill:#ffcc99, stroke:#000, stroke-width:2px;
+    classDef merge fill:#e6e6fa, stroke:#000, stroke-width:2px;
+    classDef link stroke:#696969, stroke-width:2px;
+
+        linkStyle 0 stroke:#2ca02c,stroke-width:2px
+    linkStyle 1 stroke:#2ca02c,stroke-width:2px
+    linkStyle 2 stroke:#FFA500,stroke-width:2px
+    linkStyle 3 stroke:#FF0000,stroke-width:2px
+    linkStyle 4 stroke:#FFA500,stroke-width:2px
+    linkStyle 5 stroke:#FFA500,stroke-width:2px
+    linkStyle 6 stroke:#667700,stroke-width:2px
 ```
-
-### Best Practices
-
 1. **Keep Branches Short-Lived:** Branches should be focused and merged back into the main line of development (often `main` or `master`) as soon as possible.
-   
+
 2. **Use Descriptive Names:** Branch names should convey the purpose (e.g., `feature/login`, `bugfix/header-bug`) to make collaboration easier.
-   
+
 3. **Regularly Pull Changes:** If working in a team, make sure to regularly pull changes from the main branch into your feature branches to minimize merge conflicts.
 
 4. **Rebase vs. Merge:** If you want to maintain a clean project history, consider using `git rebase` instead of `git merge`. This linearizes the commit history.
@@ -143,5 +153,4 @@ graph TD;
 5. **Use Pull Requests (PR):** When collaborating, use PRs to review code before merging it into the main branch to ensure code quality and maintainability.
 
 By following these practices, you can effectively manage branches in Git and maintain a clean history of your project's development.
-
 

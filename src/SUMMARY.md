@@ -19,7 +19,11 @@
         - [Overwrite packages](./chapters/linux/archlinux/issues/overwrite_packages.md)
 
 # GIT
+- [Overview](./chapters/git/overview.md)
+    - [Structure](./chapters/git/commit.md)
+    - [Commit](./chapters/git/structure.md)
 - [Branches](./chapters/git/branches.md)
+    - [Managing branches](./chapters/git/managing_branches.md)
 - [Mirroring](./chapters/git/mirroring.md)
 - [Contributions](./chapters/git/contributions.md)
 - [Reverts](./chapters/git/reverts.md)
