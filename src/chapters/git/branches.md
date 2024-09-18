@@ -17,7 +17,3 @@ graph TD;
     B --> F[Commit E]
     F --> G[Commit F]
 ```
-
-Here is a little animation to demonstrate some concepts we are going to explain in the next pages:
-
-![Branches](../static/branches.gif)
