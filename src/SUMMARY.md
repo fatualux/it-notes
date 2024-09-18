@@ -32,6 +32,7 @@
 - [Reverts](./chapters/git/reverts.md)
 - [Rebase](./chapters/git/rebase.md)
 - [Reset](./chapters/git/reset.md)
+- [Switch VS Checkout](./chapters/git/switch.md)
 
 # MDBook
 - [mdBook](./chapters/mdbook/mdbook.md)
