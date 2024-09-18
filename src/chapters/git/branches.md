@@ -20,4 +20,4 @@ graph TD;
 
 Here is a little animation to demonstrate some concepts we are going to explain in the next pages:
 
-![Branches](../../static/branches.gif)
+![Branches](../static/branches.gif)
