@@ -28,6 +28,7 @@
 - [Mirroring](./chapters/git/mirroring.md)
 - [Contributions](./chapters/git/contributions.md)
 - [Cherry Picking](./chapters/git/cherrypick.md)
+- [Squash](./chapters/git/squash.md)
 - [Reverts](./chapters/git/reverts.md)
 - [Rebase](./chapters/git/rebase.md)
 - [Reset](./chapters/git/reset.md)
